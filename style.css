@@ -110,6 +110,7 @@ section {
 
 body {
   line-height: 1;
+  background-color: rgb(209, 206, 206);
 }
 
 ol,
@@ -225,6 +226,7 @@ h5 {
   box-sizing: border-box;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 75vh);
+  grid-row-gap: 2rem;
 }
 
 .art {
@@ -242,9 +244,45 @@ h5 {
 .add {
   padding: 30vh 10%;
   font-size: 5rem;
-} 
+}
 
 .banner {
   padding: 25vh 15%;
   font-size: 8rem;
+}
+
+#fourth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fourth-first {
+  display: flex;
+  padding: 6rem 40vw 6rem;
+  font-size: 5rem;
+  width: 100%;
+  text-justify: auto;
+}
+
+#fourth-second {
+  display: flex;
+  font-size: 4rem;
+  height: 110vh;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#fourth-third {
+  display: flex;
+  font-size: 1.5rem;
+  height: 40vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
 }
