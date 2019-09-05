@@ -225,11 +225,35 @@ h5 {
   grid-area: add;
 }
 
+.banner1 {
+  grid-area: banner1;
+}
+
+.art4 {
+  grid-area: article4;
+}
+
+.art5 {
+  grid-area: article5;
+}
+
+.art6 {
+  grid-area: article6;
+}
+
+.art7 {
+  grid-area: article7;
+}
+
+.banner2 {
+  grid-area: banner2;
+}
+
 #third-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
+  grid-template-rows: 80vh 80vh 80vh;
+  grid-template-areas:
     "article1 article2 article3 add"
     "banner1 banner1 article4 article5"
     "article6 article7 banner2 banner 2";
