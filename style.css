@@ -278,13 +278,19 @@ h5 {
 
 #fourth-third {
   display: flex;
+  flex-direction: column;
   font-size: 1.5rem;
   height: 40vh;
   padding-left: 5vw;
   padding-right: 5vw;
-  align-items: center;
   justify-content: center;
   text-align: left;
+}
+
+.fourth-header {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-style: italic;
 }
 
 .more-links {
@@ -340,16 +346,18 @@ h5 {
   line-height: 2rem;
   font-size: 1.75rem;
   color: white;
+  display: inline-block;
 }
 
 #sixth-container ul li a {
-  color: white;
+  color: white; 
 }
 
-#sixth-container ul h6 {
+#sixth-container h6 {
   color: white;
   font-size: 130%;
   padding-bottom: 1rem;
+  display: inline;
 }
 
 #last-container {
