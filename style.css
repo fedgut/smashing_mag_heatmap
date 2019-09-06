@@ -287,7 +287,7 @@ h5 {
   text-align: left;
 }
 
-#twitter-link {
+.more-links {
   grid-column: 1/ span 2;
   grid-row: 4;
   justify-self: stretch;
@@ -327,6 +327,7 @@ h5 {
 #sixth-container {
   display: flex;
   flex-direction: row;
+  margin-bottom: 3rem;
 }
 
 #sixth-container > ul {
@@ -335,7 +336,7 @@ h5 {
   width: 25%;
   box-sizing: border-box;
   list-style: disc;
-  padding: 3rem 0 2rem 4rem;
+  padding: 3rem 0 12rem 4rem;
   line-height: 2rem;
   font-size: 1.75rem;
   color: white;
@@ -349,4 +350,38 @@ h5 {
   color: white;
   font-size: 130%;
   padding-bottom: 1rem;
+}
+
+#last-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.last-first {
+  width: 90%;
+  align-items: center;
+  justify-items: center;
+  font-size: 2rem;
+  padding: 10rem 30% 10rem;
+}
+
+.last-first h6 {
+  font-size: 3rem;
+}
+
+.last-first form input {
+  height: 2.5rem;
+  border-radius: 7px;
+  width: 45%;
+  text-align: center;
+  font-size: 1.45rem;
+  margin: none;
+  padding: none;
+}
+
+.last-first form button {
+  height: 2.5 rem;
 }
