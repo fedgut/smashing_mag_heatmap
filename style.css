@@ -368,20 +368,100 @@ h5 {
   padding: 10rem 30% 10rem;
 }
 
-.last-first h6 {
+.last-first .last-header {
   font-size: 3rem;
 }
 
-.last-first form input {
-  height: 2.5rem;
-  border-radius: 7px;
-  width: 45%;
-  text-align: center;
-  font-size: 1.45rem;
-  margin: none;
-  padding: none;
+.last-first form div {
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 3rem 0;
+  justify-self: center;
+  align-self: center;
+  justify-items: stretch;
+  align-items: stretch;
 }
 
-.last-first form button {
+.last-first form div input {
+  height: 2.5rem;
+  width: 70%;
+  text-align: center;
+  font-size: 1.25rem;
+  margin: none;
+  padding: none;
+  border: none;
+  border-right: 1px solid rgb(165, 165, 165);
+  background: none;
+}
+
+.last-first form div button {
   height: 2.5 rem;
+  font-size: 1.25rem;
+  width: 30%;
+  margin: none;
+  padding: none;
+  background: none;
+  border: none;
+  color: rgb(63, 63, 63);
+}
+
+.last-second {
+  justify-self: stretch;
+  align-self: stretch;
+  text-align: center;
+  text-decoration: underline red;
+  font-size: 1.5rem;
+  padding: 5rem 0 5rem 0;
+}
+
+.last-third {
+  width: 100%;
+}
+
+.last-list {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 5rem;
+  width: 100%;
+  margin: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.last-list .last-element {
+  padding: 0 1rem;
+}
+
+.last-list a li {
+  list-style: disc;
+  font-size: 2rem;
+  padding-right: 0.5rem;
+}
+
+.last-fourth {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  font-size: 1rem;
+  padding: 3rem 30%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem 35%;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-element {
+  text-decoration: underline black;
+  padding: 0 0.5rem;
+  line-height: 2rem;
 }
