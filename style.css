@@ -321,7 +321,7 @@ h5 {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  padding: 5rem 2rem 6rem 5rem;
+  padding: 5rem 1rem 6rem 6rem;
 }
 
 #sixth-container {
@@ -366,6 +366,7 @@ h5 {
   justify-items: center;
   font-size: 2rem;
   padding: 10rem 30% 10rem;
+  margin-bottom: 3rem;
 }
 
 .last-first .last-header {
