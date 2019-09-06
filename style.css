@@ -334,6 +334,7 @@ h5 {
   display: flex;
   flex-direction: row;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 
 #sixth-container > ul {
@@ -346,18 +347,18 @@ h5 {
   line-height: 2rem;
   font-size: 1.75rem;
   color: white;
-  display: inline-block;
 }
 
 #sixth-container ul li a {
-  color: white; 
+  color: white;
 }
 
 #sixth-container h6 {
   color: white;
-  font-size: 130%;
-  padding-bottom: 1rem;
+  font-size: 2.3rem;
   display: inline;
+  width: 25%;
+  padding: 2rem 0 0 2rem;
 }
 
 #last-container {
@@ -442,14 +443,13 @@ h5 {
   align-content: center;
 }
 
-.last-list .last-element {
-  padding: 0 1rem;
-}
-
-.last-list a li {
+.last-list .last-ul {
   list-style: disc;
   font-size: 2rem;
-  padding-right: 0.5rem;
+}
+
+.last-ul .last-element {
+  padding: 0 1rem;
 }
 
 .last-fourth {
