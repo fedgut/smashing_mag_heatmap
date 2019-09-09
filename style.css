@@ -234,7 +234,7 @@ h5 {
   line-height: 3rem;
 }
 
-.art > p {
+.art > article > p {
   padding: 1rem 0 0 1.5rem;
   font-size: 1.5rem;
 }
