@@ -87,7 +87,6 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit 100%;
   vertical-align: center;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -142,7 +141,6 @@ a {
 }
 
 h5 {
-  font-style: bold;
   font-size: 1.5rem;
   text-justify: auto;
 }
@@ -407,19 +405,15 @@ h5 {
   width: 70%;
   text-align: center;
   font-size: 1.25rem;
-  margin: none;
-  padding: none;
   border: none;
   border-right: 1px solid rgb(165, 165, 165);
   background: none;
 }
 
 .last-first form div button {
-  height: 2.5 rem;
+  height: 2.5rem;
   font-size: 1.25rem;
   width: 30%;
-  margin: none;
-  padding: none;
   background: none;
   border: none;
   color: rgb(63, 63, 63);
@@ -443,7 +437,6 @@ h5 {
   flex-direction: row;
   padding: 3rem 5rem;
   width: 100%;
-  margin: none;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
