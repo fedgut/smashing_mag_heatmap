@@ -8,8 +8,10 @@
 - HTML
 - CSS
 
-# Author
+# Authors
 - [Eduardo Gutierrez](https://github.com/fedgut)
+ - [Abdul-samii Ajala} (https://github.com/jalasem)
+
 
 # Acknowledgments
 - [Microverse](https://microverse.org)
@@ -18,4 +20,5 @@
 
 # Contact
  [@eduardogpulido](https://twitter.com/eduardogpulido)
+ [@AJALAABDULSAMII](https://twitter.com/AJALAABDULSAMII)
 
