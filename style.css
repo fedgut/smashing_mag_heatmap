@@ -314,6 +314,12 @@ h5 {
   padding: 5rem;
 }
 
+#fifth-eighth > h6 {
+  font-size: 120%;
+  padding-bottom: 0.85rem;
+  font-style: italic;
+}
+
 #fifth-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -444,11 +450,8 @@ h5 {
 }
 
 .last-list .last-ul {
-  list-style: disc;
   font-size: 2rem;
-}
-
-.last-ul .last-element {
+  display: inline;
   padding: 0 1rem;
 }
 
@@ -458,6 +461,11 @@ h5 {
   justify-items: center;
   font-size: 1rem;
   padding: 3rem 30%;
+}
+
+.last-fourth .lf-header {
+  display: inline;
+  font-size: 110%;
 }
 
 footer {
