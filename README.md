@@ -10,7 +10,7 @@
 
 # Authors
 - [Eduardo Gutierrez](https://github.com/fedgut)
- - [Abdul-samii Ajala} (https://github.com/jalasem)
+ - [Abdul-samii Ajala](https://github.com/jalasem)
 
 
 # Acknowledgments
